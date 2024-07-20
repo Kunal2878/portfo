@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 function LandingPage() {
 
   return (
@@ -15,8 +16,8 @@ function LandingPage() {
               <span className="w-full flex flex-row justify-center  text-8xl font-black text-black mb-4">Hello</span>
               <span className="w-full flex flex-row justify-center  text-xl font-semibold text-black mb-4">I am a passionate software developer</span>
               <div className="w-full flex flex-row justify-center   mb-3">
-                <button className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-blue-600 text-white mr-3">RESUME</button>
-                <button className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-white text-black border-2 border-black hover:bg-blue-600 hover:text-white font-light">PROJECTS</button>
+                <Link href="/Resume" className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-blue-600 text-white mr-3">RESUME</Link>
+                <Link href = "/Projects" className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-white text-black border-2 border-black hover:bg-blue-600 hover:text-white font-light">PROJECTS</Link>
               </div>
 <div className="w-11/12 ml-10 flex flex-row justify-center items-center text-sm text-gray-500 p-8">
 
