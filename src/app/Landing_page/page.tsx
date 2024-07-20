@@ -59,6 +59,7 @@ I have expertise in metaframeworks such as Next.js and Nuxt.js, alongside profic
               alt = "Loading"
               className="size-12 mr-2"
             />
+
             <Image
               src={"/twitter.svg"}
               width={10}
@@ -66,6 +67,7 @@ I have expertise in metaframeworks such as Next.js and Nuxt.js, alongside profic
               alt = "Loading"
               className="size-12 mr-2"
             />
+
             <Image
               src={"/linkedin.svg"}
               width={10}
@@ -73,6 +75,7 @@ I have expertise in metaframeworks such as Next.js and Nuxt.js, alongside profic
               alt = "Loading"
               className="size-12 mr-2"
             />
+            
             <Image
               src={"/instagram.svg"}
               width={10}
