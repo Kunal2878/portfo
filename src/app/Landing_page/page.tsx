@@ -7,7 +7,7 @@ function LandingPage() {
     <div className='w-full flex flex-col  min-h-screen overfow-x-hidden'>
       <div className="w-full relative flex flex-row justify-center items-center">
         <div className='static w-full flex flex-row justify-center items-center'>
-          <div className='w-1/2 h-screen bg-red-200 '>
+          <div className='w-1/2 h-screen bg-red-200'>
 
           </div>
           <div className='w-1/2 h-screen bg-white flex flex-row justify-center items-center'>
@@ -17,7 +17,7 @@ function LandingPage() {
               <span className="w-full flex flex-row justify-center  text-xl font-semibold text-black mb-4">I am a passionate software developer</span>
               <div className="w-full flex flex-row justify-center   mb-3">
                 <Link href="/Resume" className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-blue-600 text-white mr-3">RESUME</Link>
-                <Link href = "/Projects" className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-white text-black border-2 border-black hover:bg-blue-600 hover:text-white font-light">PROJECTS</Link>
+                <Link href = "/projects" className="w-40 h-12 flex flex-row justify-center items-center rounded-full bg-white text-black border-2 border-black hover:bg-blue-600 hover:text-white font-light">PROJECTS</Link>
               </div>
 <div className="w-11/12 ml-10 flex flex-row justify-center items-center text-sm text-gray-500 p-8">
 
@@ -75,7 +75,7 @@ I have expertise in metaframeworks such as Next.js and Nuxt.js, alongside profic
               alt = "Loading"
               className="size-12 mr-2"
             />
-            
+
             <Image
               src={"/instagram.svg"}
               width={10}
