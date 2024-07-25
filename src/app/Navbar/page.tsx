@@ -9,6 +9,7 @@ function Navbar() {
       <Link href='/Resume' className='cursor-pointer text-black hover:text-blue-600 mr-3  border-2 border-white hover:border-b-blue-600'>RESUME</Link>
       <Link href="/projeects" className='cursor-pointer text-black hover:text-blue-600 mr-3  border-2 border-white hover:border-b-blue-600'>PROJECTS</Link>
       <Link href='/Contact' className='cursor-pointer text-black hover:text-blue-600 mr-3  border-2 border-white hover:border-b-blue-600'>CONTACT</Link>
+      <Link href='/Certifications' className='cursor-pointer text-black hover:text-blue-600 mr-3  border-2 border-white hover:border-b-blue-600'>CERTIFICATIONS</Link>
       
       </div>
     </div>
