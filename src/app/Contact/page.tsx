@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Contact",
+
+};
+
 function Contact() {
   return (
     <div className='w-full flex flex-col justify-center items-center bg-red-200 h-screen'> 

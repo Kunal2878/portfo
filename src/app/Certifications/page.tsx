@@ -1,7 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '../Navbar/page'
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Certifications",
+
+};
+
 function Certificates() {
+
   const Num = [
     { num: 1 }, { num: 2 }, { num: 3 }
   ]

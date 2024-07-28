@@ -1,6 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '../Navbar/page'
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Resume",
+
+};
+
 function Resume() {
   return (
 <div className='static w-full flex  flex-col bg-red-200 min-h-screen '>
