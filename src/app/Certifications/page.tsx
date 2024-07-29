@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 function Certificates() {
 
   const Num = [
-    { num: 1 }, { num: 2 }, { num: 3 }
+    { num: 1 }, { num: 2 }, { num: 3 },{ num: 4}, { num: 5},{ num: 6},{ num: 7},{ num: 8}
   ]
 
-  const certificates = [{name:"/Cdac_internship.pdf"},{name:"/Nielit_cerificate.pdf"},{name:"/freeCodeCamp_DSA.pdf"},{name:"/freeCodeCamp_Web.pdf"}]
+  const certificates = [{name:"/Cdac_internship.pdf"},{name:"/Nielit_cerificate.pdf"},{name:"/freeCodeCamp_DSA.pdf"},{name:"/freeCodeCamp_Web.pdf"},{name:"/SIH_2022.pdf"},{name:"/NCSC_State.pdf"}, {name:"/NCSC_DISTRICT_2016.pdf"},{name:"/NCSC_2015_District.pdf"},]
   return (
     <div className='static w-full flex  flex-col bg-red-200 min-h-screen '>
       <div className="w-full sticky top-0"><Navbar /></div>

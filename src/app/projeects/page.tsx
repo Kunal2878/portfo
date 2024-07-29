@@ -4,14 +4,13 @@ import Navbar from '../Navbar/page'
 import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Projects",
-
 };
 function Projects() {
           const info =[
 
               {
                 name:"SmartChat", desc:"SmartChat, a robust chat app built with Next.js, integrating Supabase for data storage and PostgreSQL for efficient querying. It features secure authentication with Supabase AuthJS and real-time communication using Socket.IO and PusherJS, showcasing expertise in full-stack development, real-time data management, and modern web app security.",img:"/smartchat.jpeg"
-              
+
               },
 
               {
